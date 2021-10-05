@@ -1,13 +1,19 @@
 html, body {
     margin: 0;
     border: 0;
-    text-align: center;
     font-size: 100%;
     background-color: #000000;
     color: #ffffff;
 }
 
-#index {
+#banner a, nav a{
     text-align: center;
-    color: bisque;
+    color: gold;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#banner, nav {
+    color: gold;
+    text-align: center;
 }
