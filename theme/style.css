@@ -7,7 +7,7 @@ html, body {
     color: #ffffff;
 }
 
-.index {
+#index {
     text-align: center;
-    text-decoration-color: bisque;
+    color: bisque;
 }
