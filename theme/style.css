@@ -5,4 +5,8 @@ html, body {
     background-color: #000000;
     color: #ffffff;
 }
-  
+
+html, header {
+    text-align: center;
+    color: cyan;
+}
