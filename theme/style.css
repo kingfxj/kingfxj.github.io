@@ -6,7 +6,7 @@ html, body {
     color: #ffffff;
 }
 
-h1 {
+.index {
     text-align: center;
-    color: cyan;
+    color: wheat;
 }
