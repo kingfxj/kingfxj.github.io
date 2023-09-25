@@ -79,6 +79,10 @@ a {
 	color:gold;
 }
 
+img {
+	text-align: center;
+}
+
 .right {
 	float:right;
 }
