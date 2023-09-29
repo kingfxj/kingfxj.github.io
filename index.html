@@ -7,189 +7,275 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="https://kingfxj.github.io/theme/style.css"/>
-<!--    <link rel="stylesheet" type="text/css" href="theme/style.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="https://kingfxj.github.io/theme/style.css"/>-->
+    <link rel="stylesheet" type="text/css" href="theme/style.css"/>
 </head>
 
 <body>
-<div id="topnav">
-    <a href="#home" class="active">About me</a>
-    <a href="#Experience">Experience</a>
-    <a href="#Skills">Skills</a>
-    <a href="#Leadership">Leadership</a>
-    <a href="#Contact">Contact</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
-</div>
-
-<div class="content">
-    <h1 id="website"><a href="https://kingfxj.github.io/">King Fu Website</a><br>
-        <img src="image/kingfu.jpg" alt="kingfu" width=50%><br>
-        <a href="https://github.com/kingfxj/">
-            <img src="image/github.jpg" alt="github" width="100px"></img>
+    <div class="topnav sticky" id="topnav">
+        <a href="#Home" class="active">Home</a>
+        <a href="#Experience">Experience</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Project">Project</a>
+        <a href="#Contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="responsive()">
+            <i class="fa fa-bars"></i>
         </a>
-        <a href="https://discord.com/kinghamilton/">
-            <img src="image/discord.jpg" alt="discord" width="100px"></img>
-        </a>
-    </h1>
-    <div id="home">
-        <h1 class="nav" >About me</h1>
-        <p>I started of by using Python to learn the basic of programming including data structures, recursion,
-            modularization and functional programming. Moving forward, I used C and C++ in Unix Environment focuses on
-            fundamental principles of software engineering based on abstract data types and implementations. I also
-            learned algorithm design and analysis, emphasizing on searching, sorting and graph algorithms. Regarding
-            file and database management, I used SQL, relational query languages to learn computer data organization,
-            information processing, entity-relationship model, and relational model. In advanced class, we also learned
-            concurrent execution of transactions, indexing, advanced construct in SQL, and cloud-based database systems.
-            In higher level courses, I learnt Software Process and Product Management (All phases of software are
-            reviewed from a process perspective), Web Applications and Architecture (architecture of modern web-based
-            information systems, web data exchange and serialization and service-oriented middleware), Foundation of
-            Program Analysis (Intermediate representations, inter-procedural and intra-procedural analysis, call graphs,
-            points analysis and analysis frameworks), Search, Knowledge and Simulation (Understand the short and
-            long-term consequences of possible actions and state-of-the-art decision-making algorithms). I learned AI
-            and Games programming (search and problem-solving techniques, knowledge representations, reasoning and
-            acting under uncertainty and machine learning, solving deterministic shortest path, combinatorial
-            optimization problems, constraint satisfaction and multi-agent problems). Last but not the least, I learned
-            Advanced Games Programming and focused on State-of-the AI, graphics for video games and openGL.</p>
-        <p>Throughout university, I focused on learning skills and also apply them through projects. During both
-            volunteer and projects experiences, I learned communication skills and how to work in a team. Throughout my
-            first work job, it was really fast pace, and I learned how to organize, distribute works to team members and
-            focus on details. I believe all of these helps me for my future, and I am always eager to improve and learn
-            from the surrounding people. It is important to keep a positive attitude of myself and enjoy the time with
-            the people around you.</p>
     </div>
 
-    <div id="Experience">
-        <h1 class="nav">Experience</h1>
-        <ul>
-            <li><b>Tim Hortons</b> <spam class="right">Edmonton AB</spam></li>
-            <i>Supervisor, Trainers, Members, Cashier, Baker <spam class="right">May 2022 - Feb 2023</spam></i>
-            <ul>
-                <li>Lead by example and encourage your team to make Guests their highest priority. Share ideas, look for
-                    opportunities to grow the business and empower your team to do the right thing</li>
-                <li>Put my supportive nature to work. Train, coach and build a strong team with the skills and knowledge
-                    they need to excel</li>
-                <li>Bring my energy and passion to work every day and help make coming to Tims the best part of someone
-                    else’s</li>
-                <li>Execute Tim Hortons’ standards around people, product, cleanliness and exceptional customer service
-                    while on shift</li>
-                <li>Produce the best loved bakery items that guests come to enjoy</li>
-            </ul>
+    <div class="content">
+        <section id="Home">
+            <h1 >About me</h1>
+            <div style="text-align:center;">
+                <h1>
+                    <a href="https://kingfxj.github.io/">King Fu</a>
+                </h1>
+                <img src="image/1_kingfu.jpg" alt="kingfu" width=50%;><br>
+                <table>
+                    <td>
+                        <a href="https://github.com/kingfxj/">
+                            <img src="image/2_github.jpg" alt="github"/><br>
+                            <p>Github</p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://discordapp.com/users/655311703931748383/">
+                            <img src="image/3_discord.jpg" alt="discord"/><br>
+                            <p>Discord</p>
+                        </a>
+                    </td>
+                </table>
+            </div>
+            <p>I started of by using Python to learn the basic of programming including data structures, recursion,
+                modularization and functional programming. Moving forward, I used C and C++ in Unix Environment focuses on
+                fundamental principles of software engineering based on abstract data types and implementations. I also
+                learned algorithm design and analysis, emphasizing on searching, sorting and graph algorithms. Regarding
+                file and database management, I used SQL, relational query languages to learn computer data organization,
+                information processing, entity-relationship model, and relational model. In advanced class, we also learned
+                concurrent execution of transactions, indexing, advanced construct in SQL, and cloud-based database systems.
+                In higher level courses, I learnt Software Process and Product Management (All phases of software are
+                reviewed from a process perspective), Web Applications and Architecture (architecture of modern web-based
+                information systems, web data exchange and serialization and service-oriented middleware), Foundation of
+                Program Analysis (Intermediate representations, inter-procedural and intra-procedural analysis, call graphs,
+                points analysis and analysis frameworks), Search, Knowledge and Simulation (Understand the short and
+                long-term consequences of possible actions and state-of-the-art decision-making algorithms). I learned AI
+                and Games programming (search and problem-solving techniques, knowledge representations, reasoning and
+                acting under uncertainty and machine learning, solving deterministic shortest path, combinatorial
+                optimization problems, constraint satisfaction and multi-agent problems). Last but not the least, I learned
+                Advanced Games Programming and focused on State-of-the AI, graphics for video games and openGL.</p>
+            <p>Throughout university, I focused on learning skills and also apply them through projects. During both
+                volunteer and projects experiences, I learned communication skills and how to work in a team. Throughout my
+                first work job, it was really fast pace, and I learned how to organize, distribute works to team members and
+                focus on details. I believe all of these helps me for my future, and I am always eager to improve and learn
+                from the surrounding people. It is important to keep a positive attitude of myself and enjoy the time with
+                the people around you.</p>
+        </section>
 
-            <li style="padding-top:16px;"><b>Eyes High Education & Technologies Ltd
-                </b> <spam class="right">Edmonton AB</spam>
-            </li>
-            <i>Tutoring computing science - CMPUT 174 / 175 / 201 / 291
-                <spam class="right">September 2019 - April 2020</spam>
-            </i>
+        <section id="Experience">
+            <h1>Experience</h1>
             <ul>
-                <li>Helping students with understanding course material both remotely and in person</li>
-                <li>Explain course homework, assignments to students</li>
-                <li>Guide students through the homework and assignments</li>
-                <li>Course resources include Python, C, C++, unix system, SQL</li>
-            </ul>
+                <li><b>Tim Hortons</b> <span class="right">Edmonton AB</span></li>
+                <i>Supervisor, Trainers, Members, Cashier, Baker <span class="right">May 2022 - Feb 2023</span></i>
+                <ul>
+                    <li>Lead by example and encourage your team to make Guests their highest priority. Share ideas, look for
+                        opportunities to grow the business and empower your team to do the right thing</li>
+                    <li>Put my supportive nature to work. Train, coach and build a strong team with the skills and knowledge
+                        they need to excel</li>
+                    <li>Bring my energy and passion to work every day and help make coming to Tims the best part of someone
+                        else’s</li>
+                    <li>Execute Tim Hortons’ standards around people, product, cleanliness and exceptional customer service
+                        while on shift</li>
+                    <li>Produce the best loved bakery items that guests come to enjoy</li>
+                </ul>
 
-            <li style="padding-top:16px;"><b>TeamUp Science at University of Alberta</b>
-                <spam class="right">Edmonton AB</spam>
-            </li>
-            <i>Computing Science workshop TA
-                <spam class="right">Feb 2020 - December 2021</spam>
-            </i>
-            <ul>
-                <li>Create computing science workshops for university, high school and junior high students</li>
-                <li>Teach students Python who previously had experiences with Python</li>
-                <li>Teach intermediate students program Java applications</li>
-            </ul>
-            <i>External communication volunteer
-                <spam class="right">Sept 2019 - Apr 2020</spam>
-            </i>
-            <ul>
-                <li>Advertising TeamUp Science workshops to high school students</li>
-                <li>Volunteer for computing science workshop as a TA to explain Python to high school students</li>
-            </ul>
+                <li class="job"><b>Eyes High Education & Technologies Ltd
+                    </b> <span class="right">Edmonton AB</span>
+                </li>
+                <i>Tutoring computing science - CMPUT 174 / 175 / 201 / 291
+                    <span class="right">September 2019 - April 2020</span>
+                </i>
+                <ul>
+                    <li>Helping students with understanding course material both remotely and in person</li>
+                    <li>Explain course homework, assignments to students</li>
+                    <li>Guide students through the homework and assignments</li>
+                    <li>Course resources include Python, C, C++, unix system, SQL</li>
+                </ul>
 
-            <li style="padding-top:16px;"><b>University of Alberta</b>
-                <spam class="right">Edmonton AB</spam>
-            </li>
-            <i>Interdisciplinary Science Competition Computing Science TA
-                <spam class="right">Feb. 14, 2020 - Feb 15, 2020</spam>
-            </i>
-            <ul>
-                <li>Teach students Python who previously had no experience with programming</li>
-                <li>Mark exam papers from students</li>
-            </ul>
+                <li class="job"><b>TeamUp Science at University of Alberta</b>
+                    <span class="right">Edmonton AB</span>
+                </li>
+                <i>Computing Science workshop TA
+                    <span class="right">Feb 2020 - December 2021</span>
+                </i>
+                <ul>
+                    <li>Create computing science workshops for university, high school and junior high students</li>
+                    <li>Teach students Python who previously had experiences with Python</li>
+                    <li>Teach intermediate students program Java applications</li>
+                </ul>
+                <i>External communication volunteer
+                    <span class="right">Sept 2019 - Apr 2020</span>
+                </i>
+                <ul>
+                    <li>Advertising TeamUp Science workshops to high school students</li>
+                    <li>Volunteer for computing science workshop as a TA to explain Python to high school students</li>
+                </ul>
 
-            <li style="padding-top:16px;"><b>Harry Ainlay High School </b>
-                <spam class="right">Edmonton AB</spam>
-            </li>
-            <i>Maths Contests team
-                <spam class="right">Sept 2014 - June 2017</spam>
-            </i>
-            <ul>
-                <li>Communicate with teachers to organize students for contests.</li>
-                <li>Teach students different method to solve problems</li>
-                <li>Work out different approaches to one problem with fellow students</li>
+                <li class="job"><b>University of Alberta</b>
+                    <span class="right">Edmonton AB</span>
+                </li>
+                <i>Interdisciplinary Science Competition Computing Science TA
+                    <span class="right">Feb. 14, 2020 - Feb 15, 2020</span>
+                </i>
+                <ul>
+                    <li>Teach students Python who previously had no experience with programming</li>
+                    <li>Mark exam papers from students</li>
+                </ul>
+
+                <li class="job"><b>Harry Ainlay High School </b>
+                    <span class="right">Edmonton AB</span>
+                </li>
+                <i>Maths Contests team
+                    <span class="right">Sept 2014 - June 2017</span>
+                </i>
+                <ul>
+                    <li>Communicate with teachers to organize students for contests.</li>
+                    <li>Teach students different method to solve problems</li>
+                    <li>Work out different approaches to one problem with fellow students</li>
+                </ul>
             </ul>
-        </ul>
+        </section>
+
+        <section id="Skills">
+            <h1>Skills</h1>
+            <table>
+                <tr>
+                    <th colspan="3"><h1 style="text-align:left;">Operating Systems:</h1></th>
+                </tr>
+                <td>
+                    <img src="image/4_linux.jpg" alt="Linux"/><br>
+                    <p>Linux</p>
+                </td>
+                <td>
+                    <img src="image/5_mac.jpg" alt="Mac"/><br>
+                    <p>Mac</p>
+                </td>
+                <td>
+                    <img src="image/6_windows.jpg" alt="Windows"s/><br>
+                    <p>Windows</p>
+                </td>
+                <tr>
+                    <th colspan="3"><h1 style="text-align:left;">Software:</h1></th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="image/7_python.jpg" alt="Python"/><br>
+                        <p>Python</p>
+                    </td>
+                    <td>
+                        <img src="image/8_C.jpg" alt="C"/><br>
+                        <p>C</p>
+                    </td>
+                    <td>
+                        <img src="image/9_C++.jpg" alt="C++"/><br>
+                        <p>C++</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="image/10_Java.jpg" alt="Java"/><br>
+                        <p>Java</p>
+                    </td>
+                    <td>
+                        <img src="image/11_database.jpg" alt="Database"/><br>
+                        <p>Database</p>
+                    </td>
+                    <td>
+                        <img src="image/12_docker.jpg" alt="Docker"/><br>
+                        <p>Docker</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="Project">
+            <h1>Projects</h1>
+            <ul>
+                <li>Lead Harry Ainlay High School to be the Champion of Team Contests, 2015,</li>
+                <li>Champion in Harry Ainlay High School for CEMC Math Contests, 2015</li>
+                <li>Champion of Harry Ainlay High School for Fermat Math Contests, 2014</li>
+                <li>Lead Harry Ainlay High School to be the Champion of Team Contests, 2015,</li>
+                <li>Champion in Harry Ainlay High School for CEMC Math Contests, 2015</li>
+                <li>Champion of Harry Ainlay High School for Fermat Math Contests, 2014</li>
+                <li>Lead Harry Ainlay High School to be the Champion of Team Contests, 2015,</li>
+                <li>Champion in Harry Ainlay High School for CEMC Math Contests, 2015</li>
+                <li>Champion of Harry Ainlay High School for Fermat Math Contests, 2014</li>
+                <li>Lead Harry Ainlay High School to be the Champion of Team Contests, 2015,</li>
+                <li>Champion in Harry Ainlay High School for CEMC Math Contests, 2015</li>
+                <li>Champion of Harry Ainlay High School for Fermat Math Contests, 2014</li>
+                <li>Lead Harry Ainlay High School to be the Champion of Team Contests, 2015,</li>
+                <li>Champion in Harry Ainlay High School for CEMC Math Contests, 2015</li>
+                <li>Champion of Harry Ainlay High School for Fermat Math Contests, 2014</li>
+            </ul>
+        </section>
+
+        <section id="Contact">
+            <h1>Contact</h1>
+            <div id="ContactInfo">
+                <img src="image/13_mail.jpg" alt="mail" width="200px;"><br>
+                <a href="mailto:kingfu1012@gmail.com"><h1>kingfu1012@gmail.com</h1></a>
+                <h2>Edmonton, Alberta</h2>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a href="https://www.python.org/">Python</a>.
+        </footer>
     </div>
+    <!-- /#content -->
 
-    <div id="Skills">
-        <h1 class="nav">Skills</h1>
-        <p><b>Operating Systems: </b> <i>Microsoft Windows, Mac OS, LINUX, UNIX</i></p>
-        <p><b>Software: </b><i>(Proficient):</i> Python, C, C++, Java, Linux, SQL, non-procedural programming
-                                (lisp, prolog), Git, HTML, CSS<br>
-                        <i style="padding-left:75px">(Familiar): </i>CSS, REST API, Docker, Docker, Android
-        </p>
-    </div>
+    <script>
+        // Get all sections that have an ID defined
+        const sections = document.querySelectorAll("section[id]");
 
-    <div id="Leadership">
-        <h1 class="nav">Leadership</h1>
-        <ul>
-            <li>Lead Harry Ainlay High School to be the Champion of Team Contests, 2015,</li>
-            <li>Champion in Harry Ainlay High School for CEMC Math Contests, 2015</li>
-            <li>Champion of Harry Ainlay High School for Fermat Math Contests, 2014</li>
-        </ul>
-    </div>
+        // Add an event listener listening for scroll
+        window.addEventListener("scroll", navActive);
 
-    <div id="Contact">
-        <h1 class="nav">Contact</h1>
-        <div id="contactInfo">
-            <a href="mailto:kingfu1012@gmail.com">kingfu1012@gmail.com</a>
-            <p>Edmonton Alberta</p>
-        </div>
-    </div>
-</div><!-- /#content -->
+        function navActive() {
+            // Get current scroll position
+            let scrollY = window.pageYOffset;
 
-<script>
-        function myFunction() {
+            // Now we loop through sections to get height, top and ID values for each
+            sections.forEach(current => {
+                const sectionHeight = current.offsetHeight;
+                const sectionTop = current.offsetTop - 150;
+                sectionId = current.getAttribute("id");
+
+                /*
+                - If our current scroll position enters the space where current section on screen is, add .active class to corresponding navigation link, else remove it
+                - To know which link needs an active class, we use sectionId variable we are getting while looping through sections as an selector
+                */
+                if (
+                    scrollY > sectionTop &&
+                    scrollY <= sectionTop + sectionHeight
+                ){
+                    document.querySelector(".topnav a[href*=" + sectionId + "]").classList.add("active");
+                } else {
+                    document.querySelector(".topnav a[href*=" + sectionId + "]").classList.remove("active");
+                }
+            });
+        }
+
+        function responsive() {
             var x = document.getElementById("topnav");
-            if (x.className === "topnav") {
+            if (x.className === "topnav sticky") {
                 x.className += " responsive";
             } else {
-                x.className = "topnav";
+                x.className = "topnav sticky";
             }
         }
+    </script>
 
-        window.onscroll = function() {myFunction2()};
-        var header = document.getElementById("topnav");
-        var sticky = header.offsetTop;
-
-        function myFunction2() {
-            if (window.pageYOffset > sticky) {
-                header.classList.add("sticky");
-            } else {
-                header.classList.remove("sticky");
-            }
-        }
-
-</script>
-
-<footer id="contentinfo" class="body">
-    <address id="about" class="vcard body">
-        Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
-        which takes great advantage of <a href="https://www.python.org/">Python</a>.
-    </address><!-- /#about -->
-</footer><!-- /#contentinfo -->
 </body>
 </html>
