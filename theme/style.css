@@ -64,14 +64,19 @@ Show the link that contains should open and close the topnav (.icon) */
 	}
 }
 
-.content {
+section, footer {
 	padding-left: 30px;
 	padding-right: 30px;
-}
-
-section, footer {
 	padding-top: 60px;
 	padding-bottom: 60px;
+}
+
+#home, #Skills, #Contact {
+	background: black;
+}
+
+#Experience, #Project, footer {
+	background: #202020;
 }
 
 a {
@@ -101,6 +106,10 @@ table p {
 
 .right {
 	float:right;
+}
+
+#Project a {
+	text-align: left;
 }
 
 #ContactInfo, footer {
