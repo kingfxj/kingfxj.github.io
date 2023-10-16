@@ -71,7 +71,7 @@ section, footer {
 	padding-bottom:60px;
 }
 
-#home, #Skills, #Contact {
+#Home, #Skills, #Contact {
 	background:black;
 }
 
@@ -89,16 +89,20 @@ table {
 	margin-right:auto;
 }
 
+#Home table {
+	width:75%;
+}
+
 #Home table img {
 	width:25%;
 }
 
-#Skills table img {
+#Skills img {
 	width:75%;
 }
 
 table td {
-	vertical-align: bottom;
+	vertical-align:bottom;
 	text-align:center;
 }
 
